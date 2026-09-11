@@ -18,4 +18,5 @@ object ViaCepClient {
         .build()
 
     val viaCepService = retrofit.create(ViaCepService::class.java)
+
 }
